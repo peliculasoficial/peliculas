@@ -1,0 +1,81 @@
+/*Body*/
+body {
+  background: black;
+  margin-top: 10px;
+}
+
+/*barra de busqueda*/
+input {
+  width: 30vw;
+  padding: 10px;
+  outline: none;
+  border: 5px solid #000000;
+  font-weight: 600;
+}
+
+#listaArticulos {
+  list-style-type: none;
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  float: left;
+  margin-right: 0px;
+  list-style-type: none;
+  font-size: 0px;
+}
+
+.filtro {
+  display: none;
+  list-style-type: none;
+}
+
+.articulo {
+  text-align: center;
+}
+
+.articulo img {
+  padding: 1px;
+  display: block;
+  margin: 1px auto;
+}
+
+/*DECORACION DE BOTONES*/
+.button {
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+}
+
+.button a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/*DECORACION DE ENLACES*/
+.inicio{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+}
+
+.articulo img{
+  height: 150px;
+  width: 100px;
+}
